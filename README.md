@@ -4,6 +4,8 @@
 
 The full, unprocessed data can be found here: [Walmart item sales/ demand data from 2012 -2014 on Kaggle.](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data) 
 
+The project write-up is titled: The benefits of improved demand forecasting: a case study
+
 
 ## Note: Please ensure to run the notebooks in this exact order: 
 1) Data Pre-processing and Exploration
@@ -26,3 +28,4 @@ The full, unprocessed data can be found here: [Walmart item sales/ demand data f
 6. `test_trend.csv` - Test set from 2014 Walmart item sales/ demand data, that has been pre-processed and feature engineered. Can directly be used in `Forecasting and Evaluation.ipynb` if the other notebooks have not been run yet.
 
 7. `weather.csv` - Data containing weather variables that can be added in `Forecasting and Evaluation.ipynb`, as one of the recommended exogenous variables. From this dataset, I only used the *tavg* and *preciptotal* variables, as they made the most sense for the application.
+
